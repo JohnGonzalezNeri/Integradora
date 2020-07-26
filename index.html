@@ -5,11 +5,13 @@
     <meta name=”author” content="ulises"/>
     <meta name="description" content="formulario de Reservaciones"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reservaciones</title>
+    <title>Usuarios</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/assets/styleFUGR.css">
+    <link rel= "stylesheet" href ="assets/stylelogin.css">
+    <script src="https://kit.fontawesome.com/3952530bcb.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -30,32 +32,17 @@
           </ul>
         </li>
         
-        <li class="dropdown nav-item">
-          <a class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="reservaciones.html">Reservaciones</a>
-        <ul class="dropdown-menu">
-          <li><a href="#" class="dropdown-item">nueva reservacion</a></li>
-            <li><a href="#" class="dropdown-item">ver reservacion</a></li>
-            <li><a href="#" class="dropdown-item">detalles de reservacion</a></li>
-        </ul>
+        <li class="nav-item">
+          <a class="nav-link" href="Reservaciones.html">Reservaciones</a>
+          
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Registroperro.html">Registro Perros</a>
         </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">login</a>
+          </li>
+        
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -66,10 +53,10 @@
   <div class="container">
     <form>
       <div class="form-group">
-        <h1 class="text-center">Reservaciones</h1>
+        <h1 class="text-center">Usuarios</h1>
          <div class="row">
           <div class="col-md-3 col-lg-3">
-            <p>Fecha de reservacion:<input type="text"  name="reservacion" size="20"></p>
+            <p>Fecha de reservacion:<input type="text" name="reservacion" size="20"></p>
           </div>
           <div class="col-md-3 col-lg-3">
             <p>Tiempo de reservacion:<input type="text" name="reservacion" size="20"></p>
@@ -81,9 +68,9 @@
             <p>Cupo:<input type="add" name="Cupo" size="20"></p>
           </div>
             <p>
-              <input type="submit" value="Enviar">
-              <input type="reset" value="Borrar">
-            </p>
+              <input type="submit" class="btn btn-primary" value="enviar">
+              <input type="submit" class="btn btn-primary" value="borrar">
+          </p>
           </form>
           </div>
           <!-- footer -->
